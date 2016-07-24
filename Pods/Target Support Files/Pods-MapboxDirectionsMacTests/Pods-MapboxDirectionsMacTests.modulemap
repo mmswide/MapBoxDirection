@@ -1,0 +1,6 @@
+framework module Pods_MapboxDirectionsMacTests {
+  umbrella header "Pods-MapboxDirectionsMacTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - Mapbox-iOS-SDK (3.3.0)
+  - OHHTTPStubs/Core (5.0.0)
+  - OHHTTPStubs/Swift (5.0.0):
+    - OHHTTPStubs/Core
+  - Polyline (3.2.1)
+
+DEPENDENCIES:
+  - Mapbox-iOS-SDK (~> 3.3)
+  - OHHTTPStubs/Swift (~> 5.0.0)
+  - Polyline (~> 3.2)
+
+SPEC CHECKSUMS:
+  Mapbox-iOS-SDK: 88171e67d043af5ba80f52bcbf5dd31478652c18
+  OHHTTPStubs: a5d2e9eea07869d42ec03338325f398bc520e159
+  Polyline: 4579e57a62a5e876944c41884194e24ab7021d89
+
+PODFILE CHECKSUM: aa889ed2a49627eb09e89616f0655c659fc1509f
+
+COCOAPODS: 1.0.1

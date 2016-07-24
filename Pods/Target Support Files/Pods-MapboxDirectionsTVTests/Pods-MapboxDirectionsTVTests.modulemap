@@ -1,0 +1,6 @@
+framework module Pods_MapboxDirectionsTVTests {
+  umbrella header "Pods-MapboxDirectionsTVTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

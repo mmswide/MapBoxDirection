@@ -1,0 +1,2652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AAB8ACD057A75ABB95BF42E1D8C138 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08884C9DFF1E1F3910472C1769783C4E /* CFNetwork.framework */; };
+		01CB9F368E8C95AD8D4B9103512660E1 /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C63D4D08F5429DBEBF17DFD86B26E /* OHHTTPStubsResponse.m */; };
+		04EE6D71F7FC4753255DC809097BD1F5 /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = C53AD4BE82ACD398BC511148611C8A31 /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0736FBF36760254BD0A4C258DD9E7E92 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081B93CC52600EDA23635D53C198A /* OHHTTPStubsSwift.swift */; };
+		07931B159573BDDCC8576B8F9B370621 /* Pods-MapboxDirectionsTVTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A2A539F3156DD305D252F7E66E3497 /* Pods-MapboxDirectionsTVTests-dummy.m */; };
+		0AAB14E9BDD87B530F4F1E4B9C9CE0B3 /* OHHTTPStubs-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6933B9F026184B6D5A1B5EA3959E76D /* OHHTTPStubs-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E7B4AA7BD370641B26A46FF7503E237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A458FFAA62D4C3450F52A565A901959 /* Foundation.framework */; };
+		155F3D2328AFE2AF06D1C01C61A61881 /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F25C0ACDA2B2D1706B9459F92FC504B /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19291AA6B586D8CC839BE9659E2C65B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC0BAB31A67698E23756796B40F06E2 /* Cocoa.framework */; };
+		1DBE9CC2BCF5E5B437D3868194F8ADEB /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C63D4D08F5429DBEBF17DFD86B26E /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		25AD090F4E957575491D67C075C21E39 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A94B157B9943A11B6419C286A1A8327A /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29776D215EC2B56D0F0FB9EED900A65F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A396A56BA98FA72A2F0A97B655FD2B /* CFNetwork.framework */; };
+		2D33D344E2C35E0B87D3E4A42FA44FE2 /* Polyline-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 303038E3394C2161E6A4B71567C1DD26 /* Polyline-tvOS-dummy.m */; };
+		325FD59E75F350C6F6C3F211C3D271E7 /* OHHTTPStubs-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0356DDC4ADD6522AD7E8A20F74CCA8 /* OHHTTPStubs-tvOS-dummy.m */; };
+		3301E2DEAB296A3E975E7F9777F552E9 /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F25C0ACDA2B2D1706B9459F92FC504B /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CABBEEEEBDD9E1CF645566D5B371F3 /* Polyline-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C85B8BC6FA6A831529EFE1BDD5CCE6 /* Polyline-OSX-dummy.m */; };
+		3C4D4B4D13AECA103C66737C3AD0447E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A458FFAA62D4C3450F52A565A901959 /* Foundation.framework */; };
+		3FF588A683A42A154B08BA4491F48C87 /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = C53AD4BE82ACD398BC511148611C8A31 /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F3E0359AD01CB906935340215D36CD /* Polyline-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2870829B0EC8FA5105AD502D4877EE95 /* Polyline-iOS-dummy.m */; };
+		4C9155BB898F34835CEAF7C396B90055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B6D9F2D377E6111FE9B760740A1BB /* Foundation.framework */; };
+		507262EF71D195349A1BAEC522248DF1 /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE69A4DC9432E9B14DB60E54BADB2B /* Polyline.swift */; };
+		52B8E665A850162B93C3F1523B1AE498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEAC154354B4D00B262BA098CE3C5A6 /* Foundation.framework */; };
+		53094F2DF591551064E27A86C367F75E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7E97ED7198B067E92ABD0424B919FC /* CFNetwork.framework */; };
+		54582113E49565CE34BC1DBD505BBBCF /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F25C0ACDA2B2D1706B9459F92FC504B /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5836CC71F0A69C1A2835C77FD97CF3E2 /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B7216A7F66D257B06F386F257623F /* OHHTTPStubs.m */; };
+		5DC441718A4F968BB0927FF0EDD98F11 /* OHHTTPStubs-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4379E58EB9637F3EF0B8B01AEB94119 /* OHHTTPStubs-OSX-dummy.m */; };
+		5EAD0E5E466F46960292E562B5B7B2DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B6D9F2D377E6111FE9B760740A1BB /* Foundation.framework */; };
+		6073D9AEA86037AB49BB0D1DC42A426E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC0BAB31A67698E23756796B40F06E2 /* Cocoa.framework */; };
+		650DE1150362BBD6B5CD9B9111D9D2A1 /* Polyline-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C094D0B8506B02FD7D6C8BBEBB43E3F /* Polyline-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661052E370A16501EDC9FDBE52966499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B6D9F2D377E6111FE9B760740A1BB /* Foundation.framework */; };
+		69C332DCBF3202AAA042E9200AE2686E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A458FFAA62D4C3450F52A565A901959 /* Foundation.framework */; };
+		702E698A814A567C42A98255D816A192 /* Pods-MapboxDirectionsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D4AC39CBFCF68721B381AA3EDFF955 /* Pods-MapboxDirectionsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78D024738385536023B02F475B4DEDE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEAC154354B4D00B262BA098CE3C5A6 /* Foundation.framework */; };
+		7A618792C5DA6FCA4BF4EB02C7597B42 /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE69A4DC9432E9B14DB60E54BADB2B /* Polyline.swift */; };
+		7B3B7747D3A062A8E170A0AB755A3643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A458FFAA62D4C3450F52A565A901959 /* Foundation.framework */; };
+		850E4A8D8DF11466E5CEE420A0D06BBE /* Pods-Example (Swift)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2FC41CE6C4678DB8C4F66B1B099E20 /* Pods-Example (Swift)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8835F4061798F36205AB794D6556DA9C /* Pods-MapboxDirectionsMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4E3DAAA1867CB973BB6BA47FFE3DE3 /* Pods-MapboxDirectionsMac-dummy.m */; };
+		8CA9C6591315730B0B0765ED3D081FCD /* Pods-MapboxDirectionsTV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA85E60DB2D17363372B0153279E4AF0 /* Pods-MapboxDirectionsTV-dummy.m */; };
+		8EA309B6DC751D792B0C29D16FD5A4B9 /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B7216A7F66D257B06F386F257623F /* OHHTTPStubs.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8F44DAD9D6B097E5F1EEE70F5B124B48 /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = C53AD4BE82ACD398BC511148611C8A31 /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9709B5D670A86C406181877DF80249F8 /* Polyline-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D6C2E8005CBB0EEDB483D94DDFC0E0 /* Polyline-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		975B0F3D45E1B90F7339C9D38498369D /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A94B157B9943A11B6419C286A1A8327A /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CBA75860B0A7223A0690AFD94F4DCB5 /* Pods-MapboxDirectionsMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC613821A5901C232F1B4B7325DD686A /* Pods-MapboxDirectionsMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DD0B9F2D84559F86A540C6068496EAA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC0BAB31A67698E23756796B40F06E2 /* Cocoa.framework */; };
+		A19A70565205BE1F71579FF766E60E2F /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 40673FDDEA562424DD3094937DB174B0 /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A499E13397D9639A9C6B0E9B6A0DB9A4 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081B93CC52600EDA23635D53C198A /* OHHTTPStubsSwift.swift */; };
+		A809EE147653209647DF39FC41181763 /* Polyline-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1127FAFC8A21FACD71DCA8796A5C3C70 /* Polyline-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC29CFAFA86552635204CEB3FC798ACC /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 40673FDDEA562424DD3094937DB174B0 /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B03DF1ACB39F951C28C73C441ECD8A07 /* OHHTTPStubs-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42012BD9C1BF20117B79CCA69EFFD405 /* OHHTTPStubs-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A690F45129FE0FCF97995AF0B64D2B /* Pods-MapboxDirectionsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB548A485A189D1BFB18FDD125DC7FB /* Pods-MapboxDirectionsTests-dummy.m */; };
+		B75DC65FEBC03423AC531AEE549D3C86 /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE69A4DC9432E9B14DB60E54BADB2B /* Polyline.swift */; };
+		BD3FC5839020FF9856F09E9175BD9D3A /* Pods-MapboxDirections-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7113F268C15279291590A935C73A02DA /* Pods-MapboxDirections-dummy.m */; };
+		BE548A8894F601FA24B457E2135C4C63 /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B7216A7F66D257B06F386F257623F /* OHHTTPStubs.m */; };
+		BEF9D46BABDF33B0325BAC06F6735ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A458FFAA62D4C3450F52A565A901959 /* Foundation.framework */; };
+		C224F60B1A0DFC82012CDAB41B531D62 /* OHHTTPStubs-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7C44E343DCB4BE62FBBD837D8B164 /* OHHTTPStubs-iOS-dummy.m */; };
+		C46AEB85D6EBF581A101E417E7F92E87 /* Pods-MapboxDirections-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 875F5C94F3BA37F1F853E967FD8C8F7F /* Pods-MapboxDirections-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C585E171EBE4DA334FA6052173E95E34 /* Pods-MapboxDirectionsMacTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9BDDFC7575F59D0E200ED392944A21 /* Pods-MapboxDirectionsMacTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDBC9FC4F4110E80212D201A4D956D4E /* Pods-MapboxDirectionsMacTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E0AC2CC62B9222357E3C123A61ED76 /* Pods-MapboxDirectionsMacTests-dummy.m */; };
+		CF3276738BD6CF59131636816573FFA3 /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 40673FDDEA562424DD3094937DB174B0 /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD5A42AAEE170598B6F590B43431DDC /* Pods-Example (Swift)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C7013535F21DE160F4F10C81845ED /* Pods-Example (Swift)-dummy.m */; };
+		D0AE7E7CC6DCAA1FFA846B370EC15A2C /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C63D4D08F5429DBEBF17DFD86B26E /* OHHTTPStubsResponse.m */; };
+		D46767B63C290D4D7E7A505D149E9853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12671945F80E6680EE0E0B98F6B86BA3 /* Foundation.framework */; };
+		D655BFF67B00B20D81176B04B6768DD4 /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE69A4DC9432E9B14DB60E54BADB2B /* Polyline.swift */; };
+		D66D01B8D9E8EC593A3BF490D9E12C20 /* Pods-MapboxDirectionsWatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6759A5D69286D98609D1CCFE0604ED85 /* Pods-MapboxDirectionsWatch-dummy.m */; };
+		DB609B47EAC0AE4A82A3F0799761E6E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC0BAB31A67698E23756796B40F06E2 /* Cocoa.framework */; };
+		DBE0E4ED446D0C32FFC2050CABEDEF09 /* Polyline-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 918F7B8A7C5CAC0C8FBDE15939C5C2B7 /* Polyline-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDDB9E0D3601576E9C906EB2C02FEF1 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A94B157B9943A11B6419C286A1A8327A /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4E8A6896706C27CAABFCC9CE9007CF /* OHHTTPStubs-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF4F5699751A75B0AFA0A334951AB07 /* OHHTTPStubs-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E546931217EA31BFA41F8642362888D2 /* Polyline-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD5FD8BCC6C4818C7A39C79220D34D /* Polyline-watchOS-dummy.m */; };
+		E5F4CF36E08636821B59A5B1481A3E4B /* Pods-MapboxDirectionsWatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAB7B2FD788694C488E423817147ECB /* Pods-MapboxDirectionsWatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFADAB6E8FC9D6E79942BCD877C23DF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B6D9F2D377E6111FE9B760740A1BB /* Foundation.framework */; };
+		F2A2FBC43872876664F95361D5E3C169 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081B93CC52600EDA23635D53C198A /* OHHTTPStubsSwift.swift */; };
+		FB17B8410441715551C0C693C1E9D9F3 /* Pods-MapboxDirectionsTVTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B65FDC3BD4CF9261C80974B397B81972 /* Pods-MapboxDirectionsTVTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC5BBF26580A8054ADEFE34EDFBF522A /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F25C0ACDA2B2D1706B9459F92FC504B /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF0DA395A063A0C52E04166B8FD81E28 /* Pods-MapboxDirectionsTV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B589E825EAC43D0A1823D863CBAFB4F /* Pods-MapboxDirectionsTV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B2E57CB5E141D515A68E2B1A0B8EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B15042AB104C33A9D17B0C3067314C9;
+			remoteInfo = "Polyline-iOS";
+		};
+		241CB448B0F113AB1BCA8DC842A9A0E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BC8062CA0052AB4A82EBF7D5D480D32;
+			remoteInfo = "OHHTTPStubs-OSX";
+		};
+		3B7265E560B8613E6AFC3DF3D0917A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E7E1E4364FB90C34F70555071089E83;
+			remoteInfo = "Polyline-tvOS";
+		};
+		3E50DB5D23DAF0E3309472F89D08D0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6B5F99A06C9CCAE7654C57B96B0593;
+			remoteInfo = "Polyline-OSX";
+		};
+		48198A6D1D3DF33A1D7CE3DFE4604256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D103450B66DCCFBFE71E90BC190E52C;
+			remoteInfo = "OHHTTPStubs-tvOS";
+		};
+		533102856465E71BF0C8FC919459CB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B15042AB104C33A9D17B0C3067314C9;
+			remoteInfo = "Polyline-iOS";
+		};
+		7238F8E9F13AA7D688924141BA4F37C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938C3CC2E66AD6CB14DF780D8B41E2F7;
+			remoteInfo = "Polyline-watchOS";
+		};
+		7F5A9BC9B5000A6C8EA7969D499B584B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E7E1E4364FB90C34F70555071089E83;
+			remoteInfo = "Polyline-tvOS";
+		};
+		C355801A61AD2B2C847470806E025502 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B15042AB104C33A9D17B0C3067314C9;
+			remoteInfo = "Polyline-iOS";
+		};
+		E2D1095C78504AB9641007CA386CAE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 729508EFEC9D5AAF04C61FD20F9E1D90;
+			remoteInfo = "OHHTTPStubs-iOS";
+		};
+		FF7527350D91D89D4BD5AC9E0F64453E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6B5F99A06C9CCAE7654C57B96B0593;
+			remoteInfo = "Polyline-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CF3E8CE7EA12D70DF7F49F40A675F0 /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08884C9DFF1E1F3910472C1769783C4E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		0B1FDC9746814BCCC1F6A3F002B2AE72 /* OHHTTPStubs-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "OHHTTPStubs-OSX.modulemap"; sourceTree = "<group>"; };
+		0EC0B2CB76108E34223BA6F95BC19C2B /* Polyline-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Polyline-iOS.xcconfig"; path = "../Polyline-iOS/Polyline-iOS.xcconfig"; sourceTree = "<group>"; };
+		0F25C0ACDA2B2D1706B9459F92FC504B /* Polyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Polyline.h; path = Polyline/Polyline.h; sourceTree = "<group>"; };
+		1127FAFC8A21FACD71DCA8796A5C3C70 /* Polyline-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Polyline-tvOS-umbrella.h"; path = "../Polyline-tvOS/Polyline-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		11D6C2E8005CBB0EEDB483D94DDFC0E0 /* Polyline-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Polyline-iOS-umbrella.h"; path = "../Polyline-iOS/Polyline-iOS-umbrella.h"; sourceTree = "<group>"; };
+		12671945F80E6680EE0E0B98F6B86BA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		143CF70D56BBF62796FADCA580F50A05 /* Pods-MapboxDirectionsWatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapboxDirectionsWatch-acknowledgements.plist"; sourceTree = "<group>"; };
+		1951C32A8969C10048B2B92D04EBECFF /* Pods-MapboxDirectionsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MapboxDirectionsTests.modulemap"; sourceTree = "<group>"; };
+		1AE154422276DDC8D1BC4F304349F83A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B589E825EAC43D0A1823D863CBAFB4F /* Pods-MapboxDirectionsTV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapboxDirectionsTV-umbrella.h"; sourceTree = "<group>"; };
+		1C094D0B8506B02FD7D6C8BBEBB43E3F /* Polyline-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-OSX-umbrella.h"; sourceTree = "<group>"; };
+		1C1FA7F1E1FEFCA0BD08F16930F928E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C321A0AD872AC195F9ED3618A55AFA5 /* Polyline-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Polyline-iOS.modulemap"; path = "../Polyline-iOS/Polyline-iOS.modulemap"; sourceTree = "<group>"; };
+		1CC0BAB31A67698E23756796B40F06E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		1EC914F7DB2A12CF47EF882B20E2FF06 /* Pods-MapboxDirectionsMac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsMac-resources.sh"; sourceTree = "<group>"; };
+		1F6C63D4D08F5429DBEBF17DFD86B26E /* OHHTTPStubsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubsResponse.m; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.m; sourceTree = "<group>"; };
+		24E0AC2CC62B9222357E3C123A61ED76 /* Pods-MapboxDirectionsMacTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapboxDirectionsMacTests-dummy.m"; sourceTree = "<group>"; };
+		25D5C58D35F00A84B54DFFBE58F9A5D7 /* Pods-MapboxDirections-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirections-frameworks.sh"; sourceTree = "<group>"; };
+		25DF8E742F900DC4FD1FA2974FB02EFA /* Polyline-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Polyline-iOS-prefix.pch"; path = "../Polyline-iOS/Polyline-iOS-prefix.pch"; sourceTree = "<group>"; };
+		2870829B0EC8FA5105AD502D4877EE95 /* Polyline-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Polyline-iOS-dummy.m"; path = "../Polyline-iOS/Polyline-iOS-dummy.m"; sourceTree = "<group>"; };
+		2AE081B93CC52600EDA23635D53C198A /* OHHTTPStubsSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OHHTTPStubsSwift.swift; path = OHHTTPStubs/Sources/Swift/OHHTTPStubsSwift.swift; sourceTree = "<group>"; };
+		2C852F5C6025B40E53CB2B11B9D61828 /* OHHTTPStubs-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "OHHTTPStubs-tvOS.modulemap"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.modulemap"; sourceTree = "<group>"; };
+		2CF468BE50519050B2D8B032CEA7C55A /* Pods-MapboxDirectionsWatch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsWatch-frameworks.sh"; sourceTree = "<group>"; };
+		2D98D9C15B4060FFB1955DAFFD5204FF /* Pods-MapboxDirectionsWatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MapboxDirectionsWatch.modulemap"; sourceTree = "<group>"; };
+		303038E3394C2161E6A4B71567C1DD26 /* Polyline-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Polyline-tvOS-dummy.m"; path = "../Polyline-tvOS/Polyline-tvOS-dummy.m"; sourceTree = "<group>"; };
+		322A5DCD515A60215F7DC778BE940634 /* Pods-MapboxDirections-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapboxDirections-acknowledgements.plist"; sourceTree = "<group>"; };
+		340703A562835301C76C3C9E88A235AC /* Polyline-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Polyline-tvOS.modulemap"; path = "../Polyline-tvOS/Polyline-tvOS.modulemap"; sourceTree = "<group>"; };
+		34AB06F130D1684C49182B8E9F756554 /* Pods-MapboxDirectionsWatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapboxDirectionsWatch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35BCEF6F7CA1B95B9F01A976900F425C /* Pods-MapboxDirectionsMac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsMac-frameworks.sh"; sourceTree = "<group>"; };
+		3818A0E6A6D21ECFF9B4E71EE7F2FA89 /* Pods-MapboxDirectionsTVTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapboxDirectionsTVTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B1C7013535F21DE160F4F10C81845ED /* Pods-Example (Swift)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example (Swift)-dummy.m"; sourceTree = "<group>"; };
+		3BAB7B2FD788694C488E423817147ECB /* Pods-MapboxDirectionsWatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapboxDirectionsWatch-umbrella.h"; sourceTree = "<group>"; };
+		3DA00925F5109672F06B40570CA7B645 /* Pods-Example (Swift).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example (Swift).modulemap"; sourceTree = "<group>"; };
+		3E14177596DC4A31F2F66671038EB7B6 /* Polyline-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Polyline-watchOS.xcconfig"; path = "../Polyline-watchOS/Polyline-watchOS.xcconfig"; sourceTree = "<group>"; };
+		3E68FA13318EEFF9BBB0CF57753702A5 /* Pods-MapboxDirectionsTV-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapboxDirectionsTV-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40673FDDEA562424DD3094937DB174B0 /* Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Compatibility.h; path = OHHTTPStubs/Sources/Compatibility.h; sourceTree = "<group>"; };
+		42012BD9C1BF20117B79CCA69EFFD405 /* OHHTTPStubs-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubs-OSX-umbrella.h"; sourceTree = "<group>"; };
+		421812D89F7D83447A907E5FB9A44B0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../OHHTTPStubs-tvOS/Info.plist"; sourceTree = "<group>"; };
+		451509EDCBE01ADF974A9AE430E7B3BD /* Pods-MapboxDirectionsTV-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsTV-frameworks.sh"; sourceTree = "<group>"; };
+		488EA4EAF2A79F33022ED62C31204628 /* Pods-Example (Swift)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example (Swift)-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A66FE5D3D87AA1C19B16135E97838B3 /* OHHTTPStubs-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OHHTTPStubs-tvOS.xcconfig"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.xcconfig"; sourceTree = "<group>"; };
+		4CC3A46B5C2AF01ACC29DA57F9FCF437 /* Pods_MapboxDirectionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapboxDirectionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC52D7CF6CFCF87BAE0684973F71FA5 /* Pods-Example (Swift)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example (Swift)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		502A04E3F3A3650321C5984542E4F788 /* Pods_MapboxDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapboxDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		509FB4C7662BF753A3F0B50244BF9360 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
+		51A396A56BA98FA72A2F0A97B655FD2B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		533343986043B0A8BD2F11D24A32CE6A /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D4AC39CBFCF68721B381AA3EDFF955 /* Pods-MapboxDirectionsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapboxDirectionsTests-umbrella.h"; sourceTree = "<group>"; };
+		558AEA0D2A5F3B69D43E58ED623836F2 /* Pods-MapboxDirectionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsTests.release.xcconfig"; sourceTree = "<group>"; };
+		55F2C39A251E0094C1D3B81B92B271D9 /* Pods-MapboxDirectionsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsTests-frameworks.sh"; sourceTree = "<group>"; };
+		579F872D4E2BCFF153FB1B93FE76C642 /* Pods-MapboxDirectionsWatch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsWatch-resources.sh"; sourceTree = "<group>"; };
+		57C4AA3D0D61032A6A0DA3F97FE3D4EE /* Polyline-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Polyline-OSX.xcconfig"; sourceTree = "<group>"; };
+		5A092A9DEC68990B151DA3DC0CA49048 /* Pods_MapboxDirectionsTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapboxDirectionsTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1B7216A7F66D257B06F386F257623F /* OHHTTPStubs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubs.m; path = OHHTTPStubs/Sources/OHHTTPStubs.m; sourceTree = "<group>"; };
+		5A2FC41CE6C4678DB8C4F66B1B099E20 /* Pods-Example (Swift)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example (Swift)-umbrella.h"; sourceTree = "<group>"; };
+		5D4E3DAAA1867CB973BB6BA47FFE3DE3 /* Pods-MapboxDirectionsMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapboxDirectionsMac-dummy.m"; sourceTree = "<group>"; };
+		5E1D08F8840F6B3F6F88FACA05139D41 /* Pods-MapboxDirectionsMacTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapboxDirectionsMacTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E9BDDFC7575F59D0E200ED392944A21 /* Pods-MapboxDirectionsMacTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapboxDirectionsMacTests-umbrella.h"; sourceTree = "<group>"; };
+		5FAC4D5F7C5FAD9E1B6A8EE04E384912 /* Pods-MapboxDirections.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirections.release.xcconfig"; sourceTree = "<group>"; };
+		6053013D1FCFF7810DC2035B99380C70 /* Pods-MapboxDirectionsTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsTV.debug.xcconfig"; sourceTree = "<group>"; };
+		615F592FC5E8CD8D7CC0063875520F1B /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BE60BA707F56928086FEB55D740709 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66436E3601D183A8D0104CB39D559A12 /* Pods-MapboxDirectionsMacTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapboxDirectionsMacTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6759A5D69286D98609D1CCFE0604ED85 /* Pods-MapboxDirectionsWatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapboxDirectionsWatch-dummy.m"; sourceTree = "<group>"; };
+		6BB149676C800D6CB4D781BAF2DCF256 /* Pods-MapboxDirectionsWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsWatch.release.xcconfig"; sourceTree = "<group>"; };
+		6D81E15718A8695DE78CC17085AE570E /* Pods-MapboxDirectionsTV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MapboxDirectionsTV.modulemap"; sourceTree = "<group>"; };
+		6F5E18B1A35557A688925CE5C1128F93 /* Pods-MapboxDirections-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirections-resources.sh"; sourceTree = "<group>"; };
+		7113F268C15279291590A935C73A02DA /* Pods-MapboxDirections-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapboxDirections-dummy.m"; sourceTree = "<group>"; };
+		74A2A539F3156DD305D252F7E66E3497 /* Pods-MapboxDirectionsTVTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapboxDirectionsTVTests-dummy.m"; sourceTree = "<group>"; };
+		75C3154DBF46114ED5F461A1915F7948 /* Pods-MapboxDirectionsMac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapboxDirectionsMac-acknowledgements.plist"; sourceTree = "<group>"; };
+		7681F60ACA4A74819EC0FC46D0AD874D /* Pods-MapboxDirections.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MapboxDirections.modulemap"; sourceTree = "<group>"; };
+		786CA2BC39ECAE42C2D696702FEBA571 /* Pods-MapboxDirectionsMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MapboxDirectionsMac.modulemap"; sourceTree = "<group>"; };
+		794FD45056227BEFCEE00785D528B68F /* Pods-MapboxDirectionsTVTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsTVTests-frameworks.sh"; sourceTree = "<group>"; };
+		797900E08A3E176D0377C4739F072920 /* OHHTTPStubs-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-tvOS-prefix.pch"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		7A6ADC2A4672BE1228D2087161012B19 /* Pods-MapboxDirectionsTVTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapboxDirectionsTVTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C4FA694664219913CC7BD40F11F8DD6 /* Pods-MapboxDirectionsMacTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsMacTests-resources.sh"; sourceTree = "<group>"; };
+		7D5E25AE5CBCEC3DCDC67B9315BFFAF1 /* Pods-Example (Swift)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example (Swift)-frameworks.sh"; sourceTree = "<group>"; };
+		839B6D9F2D377E6111FE9B760740A1BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		83BAC2B3EB20B74413EA186F65CBF7E9 /* Pods-Example (Swift).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example (Swift).debug.xcconfig"; sourceTree = "<group>"; };
+		840423D21F179C56EF7991C3BE588961 /* OHHTTPStubs-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubs-OSX-prefix.pch"; sourceTree = "<group>"; };
+		846E01BD5C3AED2F3A784A42356F5263 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Polyline-watchOS/Info.plist"; sourceTree = "<group>"; };
+		849D3FA4C3B96A8D7D8DE92469AAD31F /* Polyline-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Polyline-watchOS.modulemap"; path = "../Polyline-watchOS/Polyline-watchOS.modulemap"; sourceTree = "<group>"; };
+		875F5C94F3BA37F1F853E967FD8C8F7F /* Pods-MapboxDirections-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapboxDirections-umbrella.h"; sourceTree = "<group>"; };
+		897DF38D5990E633891B8709D1C82AAA /* Polyline-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Polyline-OSX.modulemap"; sourceTree = "<group>"; };
+		8A458FFAA62D4C3450F52A565A901959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8EAC30127B67237B69AD3D24124503D4 /* Pods_MapboxDirectionsMacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapboxDirectionsMacTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDCBBBD8F05CF3DBD081638A61C0213 /* Polyline-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Polyline-tvOS-prefix.pch"; path = "../Polyline-tvOS/Polyline-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		918F7B8A7C5CAC0C8FBDE15939C5C2B7 /* Polyline-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Polyline-watchOS-umbrella.h"; path = "../Polyline-watchOS/Polyline-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		922FEC3DB81A4A009F92F1AFB6E2FD4D /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92555D37645C80AD43E0B3C0801A2E38 /* Pods-MapboxDirectionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AD5FD8BCC6C4818C7A39C79220D34D /* Polyline-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Polyline-watchOS-dummy.m"; path = "../Polyline-watchOS/Polyline-watchOS-dummy.m"; sourceTree = "<group>"; };
+		98FAB7AB12B4F1A869139E8D9F537C15 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B89A179B038E2B8B26613976A34CB0 /* Pods-MapboxDirectionsMac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapboxDirectionsMac-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9DDE52BF98A570C94E00A9CF5C5CC43C /* Pods-MapboxDirectionsTVTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsTVTests-resources.sh"; sourceTree = "<group>"; };
+		9E2C4B78EA0B40CDD53E3FD1DD4E99CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10A4D6281AE47F18BAF17394626B227 /* OHHTTPStubs-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OHHTTPStubs-iOS.xcconfig"; path = "../OHHTTPStubs-iOS/OHHTTPStubs-iOS.xcconfig"; sourceTree = "<group>"; };
+		A4C85B8BC6FA6A831529EFE1BDD5CCE6 /* Polyline-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polyline-OSX-dummy.m"; sourceTree = "<group>"; };
+		A6FFA4695AADACC407F93A9D5D36FB4D /* Pods-MapboxDirectionsMacTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MapboxDirectionsMacTests.modulemap"; sourceTree = "<group>"; };
+		A94B157B9943A11B6419C286A1A8327A /* OHHTTPStubsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubsResponse.h; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.h; sourceTree = "<group>"; };
+		AF7E97ED7198B067E92ABD0424B919FC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		AFC664C34E0DB5591E622CF5CC6DDAE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65FDC3BD4CF9261C80974B397B81972 /* Pods-MapboxDirectionsTVTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapboxDirectionsTVTests-umbrella.h"; sourceTree = "<group>"; };
+		B6933B9F026184B6D5A1B5EA3959E76D /* OHHTTPStubs-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-iOS-umbrella.h"; path = "../OHHTTPStubs-iOS/OHHTTPStubs-iOS-umbrella.h"; sourceTree = "<group>"; };
+		B7C9ED9C5CDCEB7D0A8EFF6AE4AA22D7 /* Polyline-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Polyline-watchOS-prefix.pch"; path = "../Polyline-watchOS/Polyline-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		BC0356DDC4ADD6522AD7E8A20F74CCA8 /* OHHTTPStubs-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubs-tvOS-dummy.m"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-dummy.m"; sourceTree = "<group>"; };
+		BE3B5C09B12097B622659D5F65DAF06D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAE69A4DC9432E9B14DB60E54BADB2B /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = Polyline/Polyline.swift; sourceTree = "<group>"; };
+		BFC2EE4AAB64A21BD6E8ECB2E17A88B9 /* Polyline-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Polyline-tvOS.xcconfig"; path = "../Polyline-tvOS/Polyline-tvOS.xcconfig"; sourceTree = "<group>"; };
+		C1EAA9D1FA7F2C808697C6229F4C258D /* Pods-MapboxDirectionsTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsTV.release.xcconfig"; sourceTree = "<group>"; };
+		C27ECBFCD3765DE7514B9A3A37275371 /* Pods-MapboxDirectionsTV-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapboxDirectionsTV-acknowledgements.plist"; sourceTree = "<group>"; };
+		C53AD4BE82ACD398BC511148611C8A31 /* OHHTTPStubs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubs.h; path = OHHTTPStubs/Sources/OHHTTPStubs.h; sourceTree = "<group>"; };
+		C55935B40B3F4874E4C3C8CB6EDAFB0D /* Pods_Example__Swift_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example__Swift_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58FE9A979159814126B82CFE5A773B8 /* Pods-MapboxDirectionsMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsMac.release.xcconfig"; sourceTree = "<group>"; };
+		C6D6090C471FC77E3677A752D38E588D /* Pods-MapboxDirectionsTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C705D19099E4B9314CF1EAF00687B03C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71F36E5EB202C428E6A314ACBE887C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BABE313AEDD10A78EBC7BAB49FD5B6 /* Pods-MapboxDirectionsTVTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MapboxDirectionsTVTests.modulemap"; sourceTree = "<group>"; };
+		CC613821A5901C232F1B4B7325DD686A /* Pods-MapboxDirectionsMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapboxDirectionsMac-umbrella.h"; sourceTree = "<group>"; };
+		CCD525590AAC044FDA75445DA3AF7746 /* Pods-MapboxDirectionsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapboxDirectionsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDB548A485A189D1BFB18FDD125DC7FB /* Pods-MapboxDirectionsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapboxDirectionsTests-dummy.m"; sourceTree = "<group>"; };
+		CE285ADF8C51247DC666A7635CFA96DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE2E000A364B52EEB6C8D7395783FB1 /* Pods-MapboxDirectionsTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		D421350D927C599066177CE4C95195EB /* Pods-MapboxDirectionsWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		D4CF17A8732C385F8256272D7417222E /* Pods-MapboxDirectionsMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsMac.debug.xcconfig"; sourceTree = "<group>"; };
+		D56FF847C0897886008A7FFDE4D87DF1 /* OHHTTPStubs-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-iOS-prefix.pch"; path = "../OHHTTPStubs-iOS/OHHTTPStubs-iOS-prefix.pch"; sourceTree = "<group>"; };
+		D7DE453A9926A87E240E3C53915329C7 /* OHHTTPStubs-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OHHTTPStubs-OSX.xcconfig"; sourceTree = "<group>"; };
+		DC20BDFE06AF4AD5F4F5281344174108 /* Pods-MapboxDirectionsMacTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsMacTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE3B3B636D2B23C0344F620D6E764F66 /* Pods-MapboxDirectionsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsTests-resources.sh"; sourceTree = "<group>"; };
+		E08B03AE64008EBBA686D14FB0DB2BF0 /* Pods-MapboxDirectionsMacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirectionsMacTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E08F1DDB4414688B55F1463F95B0439E /* Polyline-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-OSX-prefix.pch"; sourceTree = "<group>"; };
+		E1701BA1A7098A431FB7B578B36ED006 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8EA81B5110C059737E6D227A896D669 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../OHHTTPStubs-iOS/Info.plist"; sourceTree = "<group>"; };
+		EA287D9A975BFA7070A4E9C7BCF2A0E5 /* Pods-MapboxDirectionsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapboxDirectionsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB7D8D17E3AFA0EA2CBF44B91800A3A1 /* Pods-Example (Swift).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example (Swift).release.xcconfig"; sourceTree = "<group>"; };
+		ED745B50F8654FE1B335209481A5C979 /* Pods_MapboxDirectionsMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapboxDirectionsMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F075056F06364762A01FEA3ECF4781D2 /* Pods-MapboxDirectionsTV-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsTV-resources.sh"; sourceTree = "<group>"; };
+		F32104F42AD3131B7AA481CF933D312D /* Pods-Example (Swift)-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example (Swift)-resources.sh"; sourceTree = "<group>"; };
+		F36670E47D3FF39F74162775FF35E264 /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4052F1E6B8A64B95512FCFE242B8DC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4379E58EB9637F3EF0B8B01AEB94119 /* OHHTTPStubs-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OHHTTPStubs-OSX-dummy.m"; sourceTree = "<group>"; };
+		F44997F4B29E121E4621BAEFF6C2BA13 /* Pods-MapboxDirectionsMacTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapboxDirectionsMacTests-frameworks.sh"; sourceTree = "<group>"; };
+		F534AADA0EF1ECBAA9CEA766F18D0254 /* OHHTTPStubs-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "OHHTTPStubs-iOS.modulemap"; path = "../OHHTTPStubs-iOS/OHHTTPStubs-iOS.modulemap"; sourceTree = "<group>"; };
+		F5B0AAF92075A410D22C0B26C171004E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Polyline-iOS/Info.plist"; sourceTree = "<group>"; };
+		F7B7C44E343DCB4BE62FBBD837D8B164 /* OHHTTPStubs-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubs-iOS-dummy.m"; path = "../OHHTTPStubs-iOS/OHHTTPStubs-iOS-dummy.m"; sourceTree = "<group>"; };
+		F7D36A9856E4C0C3FB0CBE4451BD4CB2 /* Pods_MapboxDirectionsTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapboxDirectionsTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B409C3E3FDA3ADFD9DC124ACF0BF7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Polyline-tvOS/Info.plist"; sourceTree = "<group>"; };
+		FA85E60DB2D17363372B0153279E4AF0 /* Pods-MapboxDirectionsTV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapboxDirectionsTV-dummy.m"; sourceTree = "<group>"; };
+		FBF4F5699751A75B0AFA0A334951AB07 /* OHHTTPStubs-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-tvOS-umbrella.h"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		FBF815B8FDB9276EDAE71B4B2539A5A6 /* Pods-MapboxDirections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapboxDirections.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC67A6CC61D21447D87B44FA563985F /* Pods_MapboxDirectionsWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapboxDirectionsWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA917CCD7891645E7B7C7C3E1A86E07 /* Pods-MapboxDirections-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapboxDirections-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFEAC154354B4D00B262BA098CE3C5A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D017C055465BD8A37FA15490A99268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D024738385536023B02F475B4DEDE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF984BA3EA97FFE595D21CC30707DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B8E665A850162B93C3F1523B1AE498 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E65C95561FDB823B69765167B79FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19291AA6B586D8CC839BE9659E2C65B7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F8BB4AB30ECC2B45E3208A531E2BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAD0E5E466F46960292E562B5B7B2DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4682D31A847C7062A1DEC52AD1E5F206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFADAB6E8FC9D6E79942BCD877C23DF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604ACAE506AAC15D01E7CD30F12CBC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29776D215EC2B56D0F0FB9EED900A65F /* CFNetwork.framework in Frameworks */,
+				7B3B7747D3A062A8E170A0AB755A3643 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B335F3F088157DE03F67B87D8CD84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9155BB898F34835CEAF7C396B90055 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933C1B97F1C510FEDF2F945206A4F2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7B4AA7BD370641B26A46FF7503E237 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996F5D17393830952E219D0F78B01CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00AAB8ACD057A75ABB95BF42E1D8C138 /* CFNetwork.framework in Frameworks */,
+				661052E370A16501EDC9FDBE52966499 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A531B1A8F8E080C5CFCDCD1F6883B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF9D46BABDF33B0325BAC06F6735ED5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECCC19F25702ABFB947747287632BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB609B47EAC0AE4A82A3F0799761E6E6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE37D7C49F8B4AFFD8305D7F858BF5F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C332DCBF3202AAA042E9200AE2686E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52D7EAC2A7354BC4E9F4D4DF3EAC742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6073D9AEA86037AB49BB0D1DC42A426E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6227065A760DEF9297D6AD0B77577F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53094F2DF591551064E27A86C367F75E /* CFNetwork.framework in Frameworks */,
+				9DD0B9F2D84559F86A540C6068496EAA /* Cocoa.framework in Frameworks */,
+				D46767B63C290D4D7E7A505D149E9853 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA64071064A93FDAC8CA2726783933E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4D4B4D13AECA103C66737C3AD0447E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0079AA9E9990506E9935A155538325BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				509FB4C7662BF753A3F0B50244BF9360 /* Mapbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02CC7799A6CB430D7333F701DFED499C /* Mapbox-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				0079AA9E9990506E9935A155538325BC /* Frameworks */,
+			);
+			path = "Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		0E08D3118A2ACF20AAE136953CFA08B6 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2AE081B93CC52600EDA23635D53C198A /* OHHTTPStubsSwift.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		1A789F501389ABAF0AF27EC17CC1547E /* Pods-MapboxDirectionsTV */ = {
+			isa = PBXGroup;
+			children = (
+				9E2C4B78EA0B40CDD53E3FD1DD4E99CE /* Info.plist */,
+				6D81E15718A8695DE78CC17085AE570E /* Pods-MapboxDirectionsTV.modulemap */,
+				3E68FA13318EEFF9BBB0CF57753702A5 /* Pods-MapboxDirectionsTV-acknowledgements.markdown */,
+				C27ECBFCD3765DE7514B9A3A37275371 /* Pods-MapboxDirectionsTV-acknowledgements.plist */,
+				FA85E60DB2D17363372B0153279E4AF0 /* Pods-MapboxDirectionsTV-dummy.m */,
+				451509EDCBE01ADF974A9AE430E7B3BD /* Pods-MapboxDirectionsTV-frameworks.sh */,
+				F075056F06364762A01FEA3ECF4781D2 /* Pods-MapboxDirectionsTV-resources.sh */,
+				1B589E825EAC43D0A1823D863CBAFB4F /* Pods-MapboxDirectionsTV-umbrella.h */,
+				6053013D1FCFF7810DC2035B99380C70 /* Pods-MapboxDirectionsTV.debug.xcconfig */,
+				C1EAA9D1FA7F2C808697C6229F4C258D /* Pods-MapboxDirectionsTV.release.xcconfig */,
+			);
+			name = "Pods-MapboxDirectionsTV";
+			path = "Target Support Files/Pods-MapboxDirectionsTV";
+			sourceTree = "<group>";
+		};
+		25D0BCFC83AD67616D393FD6B1F299FE /* OHHTTPStubs */ = {
+			isa = PBXGroup;
+			children = (
+				709D093CD2FB4DBA6F5A9E42A4A10890 /* Core */,
+				996F7313C451064F83D0BBF4C8E6A3B5 /* Support Files */,
+				0E08D3118A2ACF20AAE136953CFA08B6 /* Swift */,
+			);
+			path = OHHTTPStubs;
+			sourceTree = "<group>";
+		};
+		2AA8C2B1CB677F8AB0EEE4F5316B80EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9798B9AB393F902D2123E0CA7C8B921C /* Pods-Example (Swift) */,
+				D51DFDF4150F3B7BD651C7183F763E71 /* Pods-MapboxDirections */,
+				779AEA350DEC8AF8D17A6C1EE3B90295 /* Pods-MapboxDirectionsMac */,
+				35FFD8574B6DECC77E6F4FBA29A8D4B8 /* Pods-MapboxDirectionsMacTests */,
+				832B1564AAFCF62EF640E7B5CB7CD2BB /* Pods-MapboxDirectionsTests */,
+				1A789F501389ABAF0AF27EC17CC1547E /* Pods-MapboxDirectionsTV */,
+				511B1108D339C826DDAA4CD62F6A7C7A /* Pods-MapboxDirectionsTVTests */,
+				2BCCA7CD127BCEB50859D498ED3B5B87 /* Pods-MapboxDirectionsWatch */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2BCCA7CD127BCEB50859D498ED3B5B87 /* Pods-MapboxDirectionsWatch */ = {
+			isa = PBXGroup;
+			children = (
+				E1701BA1A7098A431FB7B578B36ED006 /* Info.plist */,
+				2D98D9C15B4060FFB1955DAFFD5204FF /* Pods-MapboxDirectionsWatch.modulemap */,
+				34AB06F130D1684C49182B8E9F756554 /* Pods-MapboxDirectionsWatch-acknowledgements.markdown */,
+				143CF70D56BBF62796FADCA580F50A05 /* Pods-MapboxDirectionsWatch-acknowledgements.plist */,
+				6759A5D69286D98609D1CCFE0604ED85 /* Pods-MapboxDirectionsWatch-dummy.m */,
+				2CF468BE50519050B2D8B032CEA7C55A /* Pods-MapboxDirectionsWatch-frameworks.sh */,
+				579F872D4E2BCFF153FB1B93FE76C642 /* Pods-MapboxDirectionsWatch-resources.sh */,
+				3BAB7B2FD788694C488E423817147ECB /* Pods-MapboxDirectionsWatch-umbrella.h */,
+				D421350D927C599066177CE4C95195EB /* Pods-MapboxDirectionsWatch.debug.xcconfig */,
+				6BB149676C800D6CB4D781BAF2DCF256 /* Pods-MapboxDirectionsWatch.release.xcconfig */,
+			);
+			name = "Pods-MapboxDirectionsWatch";
+			path = "Target Support Files/Pods-MapboxDirectionsWatch";
+			sourceTree = "<group>";
+		};
+		35FFD8574B6DECC77E6F4FBA29A8D4B8 /* Pods-MapboxDirectionsMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC664C34E0DB5591E622CF5CC6DDAE5 /* Info.plist */,
+				A6FFA4695AADACC407F93A9D5D36FB4D /* Pods-MapboxDirectionsMacTests.modulemap */,
+				66436E3601D183A8D0104CB39D559A12 /* Pods-MapboxDirectionsMacTests-acknowledgements.markdown */,
+				5E1D08F8840F6B3F6F88FACA05139D41 /* Pods-MapboxDirectionsMacTests-acknowledgements.plist */,
+				24E0AC2CC62B9222357E3C123A61ED76 /* Pods-MapboxDirectionsMacTests-dummy.m */,
+				F44997F4B29E121E4621BAEFF6C2BA13 /* Pods-MapboxDirectionsMacTests-frameworks.sh */,
+				7C4FA694664219913CC7BD40F11F8DD6 /* Pods-MapboxDirectionsMacTests-resources.sh */,
+				5E9BDDFC7575F59D0E200ED392944A21 /* Pods-MapboxDirectionsMacTests-umbrella.h */,
+				E08B03AE64008EBBA686D14FB0DB2BF0 /* Pods-MapboxDirectionsMacTests.debug.xcconfig */,
+				DC20BDFE06AF4AD5F4F5281344174108 /* Pods-MapboxDirectionsMacTests.release.xcconfig */,
+			);
+			name = "Pods-MapboxDirectionsMacTests";
+			path = "Target Support Files/Pods-MapboxDirectionsMacTests";
+			sourceTree = "<group>";
+		};
+		3F6FFD6051F8E34CB6CF401849BB1588 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				51A396A56BA98FA72A2F0A97B655FD2B /* CFNetwork.framework */,
+				8A458FFAA62D4C3450F52A565A901959 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		49D7271C1A6A86D296818F5A651FA2C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6FFD6051F8E34CB6CF401849BB1588 /* iOS */,
+				8C433B4AD5A69D6305BD624735332AC8 /* OS X */,
+				CE5512581EA5B696FAE31D2A54490B4B /* tvOS */,
+				6954B3C4958C219C997DA4CAAB0E228F /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		511B1108D339C826DDAA4CD62F6A7C7A /* Pods-MapboxDirectionsTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3B5C09B12097B622659D5F65DAF06D /* Info.plist */,
+				C7BABE313AEDD10A78EBC7BAB49FD5B6 /* Pods-MapboxDirectionsTVTests.modulemap */,
+				7A6ADC2A4672BE1228D2087161012B19 /* Pods-MapboxDirectionsTVTests-acknowledgements.markdown */,
+				3818A0E6A6D21ECFF9B4E71EE7F2FA89 /* Pods-MapboxDirectionsTVTests-acknowledgements.plist */,
+				74A2A539F3156DD305D252F7E66E3497 /* Pods-MapboxDirectionsTVTests-dummy.m */,
+				794FD45056227BEFCEE00785D528B68F /* Pods-MapboxDirectionsTVTests-frameworks.sh */,
+				9DDE52BF98A570C94E00A9CF5C5CC43C /* Pods-MapboxDirectionsTVTests-resources.sh */,
+				B65FDC3BD4CF9261C80974B397B81972 /* Pods-MapboxDirectionsTVTests-umbrella.h */,
+				C6D6090C471FC77E3677A752D38E588D /* Pods-MapboxDirectionsTVTests.debug.xcconfig */,
+				CFE2E000A364B52EEB6C8D7395783FB1 /* Pods-MapboxDirectionsTVTests.release.xcconfig */,
+			);
+			name = "Pods-MapboxDirectionsTVTests";
+			path = "Target Support Files/Pods-MapboxDirectionsTVTests";
+			sourceTree = "<group>";
+		};
+		5FFA8F13FA49E431F7260960857942CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533343986043B0A8BD2F11D24A32CE6A /* OHHTTPStubs.framework */,
+				65BE60BA707F56928086FEB55D740709 /* OHHTTPStubs.framework */,
+				98FAB7AB12B4F1A869139E8D9F537C15 /* OHHTTPStubs.framework */,
+				C55935B40B3F4874E4C3C8CB6EDAFB0D /* Pods_Example__Swift_.framework */,
+				502A04E3F3A3650321C5984542E4F788 /* Pods_MapboxDirections.framework */,
+				ED745B50F8654FE1B335209481A5C979 /* Pods_MapboxDirectionsMac.framework */,
+				8EAC30127B67237B69AD3D24124503D4 /* Pods_MapboxDirectionsMacTests.framework */,
+				4CC3A46B5C2AF01ACC29DA57F9FCF437 /* Pods_MapboxDirectionsTests.framework */,
+				F7D36A9856E4C0C3FB0CBE4451BD4CB2 /* Pods_MapboxDirectionsTV.framework */,
+				5A092A9DEC68990B151DA3DC0CA49048 /* Pods_MapboxDirectionsTVTests.framework */,
+				FCC67A6CC61D21447D87B44FA563985F /* Pods_MapboxDirectionsWatch.framework */,
+				F36670E47D3FF39F74162775FF35E264 /* Polyline.framework */,
+				615F592FC5E8CD8D7CC0063875520F1B /* Polyline.framework */,
+				922FEC3DB81A4A009F92F1AFB6E2FD4D /* Polyline.framework */,
+				00CF3E8CE7EA12D70DF7F49F40A675F0 /* Polyline.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A19903C8BD6154F9EB3B074064A2BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B0AAF92075A410D22C0B26C171004E /* Info.plist */,
+				CE285ADF8C51247DC666A7635CFA96DF /* Info.plist */,
+				846E01BD5C3AED2F3A784A42356F5263 /* Info.plist */,
+				F9B409C3E3FDA3ADFD9DC124ACF0BF7B /* Info.plist */,
+				1C321A0AD872AC195F9ED3618A55AFA5 /* Polyline-iOS.modulemap */,
+				0EC0B2CB76108E34223BA6F95BC19C2B /* Polyline-iOS.xcconfig */,
+				2870829B0EC8FA5105AD502D4877EE95 /* Polyline-iOS-dummy.m */,
+				25DF8E742F900DC4FD1FA2974FB02EFA /* Polyline-iOS-prefix.pch */,
+				11D6C2E8005CBB0EEDB483D94DDFC0E0 /* Polyline-iOS-umbrella.h */,
+				897DF38D5990E633891B8709D1C82AAA /* Polyline-OSX.modulemap */,
+				57C4AA3D0D61032A6A0DA3F97FE3D4EE /* Polyline-OSX.xcconfig */,
+				A4C85B8BC6FA6A831529EFE1BDD5CCE6 /* Polyline-OSX-dummy.m */,
+				E08F1DDB4414688B55F1463F95B0439E /* Polyline-OSX-prefix.pch */,
+				1C094D0B8506B02FD7D6C8BBEBB43E3F /* Polyline-OSX-umbrella.h */,
+				340703A562835301C76C3C9E88A235AC /* Polyline-tvOS.modulemap */,
+				BFC2EE4AAB64A21BD6E8ECB2E17A88B9 /* Polyline-tvOS.xcconfig */,
+				303038E3394C2161E6A4B71567C1DD26 /* Polyline-tvOS-dummy.m */,
+				8FDCBBBD8F05CF3DBD081638A61C0213 /* Polyline-tvOS-prefix.pch */,
+				1127FAFC8A21FACD71DCA8796A5C3C70 /* Polyline-tvOS-umbrella.h */,
+				849D3FA4C3B96A8D7D8DE92469AAD31F /* Polyline-watchOS.modulemap */,
+				3E14177596DC4A31F2F66671038EB7B6 /* Polyline-watchOS.xcconfig */,
+				94AD5FD8BCC6C4818C7A39C79220D34D /* Polyline-watchOS-dummy.m */,
+				B7C9ED9C5CDCEB7D0A8EFF6AE4AA22D7 /* Polyline-watchOS-prefix.pch */,
+				918F7B8A7C5CAC0C8FBDE15939C5C2B7 /* Polyline-watchOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Polyline-OSX";
+			sourceTree = "<group>";
+		};
+		6954B3C4958C219C997DA4CAAB0E228F /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				FFEAC154354B4D00B262BA098CE3C5A6 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		709D093CD2FB4DBA6F5A9E42A4A10890 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				40673FDDEA562424DD3094937DB174B0 /* Compatibility.h */,
+				C53AD4BE82ACD398BC511148611C8A31 /* OHHTTPStubs.h */,
+				5A1B7216A7F66D257B06F386F257623F /* OHHTTPStubs.m */,
+				A94B157B9943A11B6419C286A1A8327A /* OHHTTPStubsResponse.h */,
+				1F6C63D4D08F5429DBEBF17DFD86B26E /* OHHTTPStubsResponse.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		779AEA350DEC8AF8D17A6C1EE3B90295 /* Pods-MapboxDirectionsMac */ = {
+			isa = PBXGroup;
+			children = (
+				1AE154422276DDC8D1BC4F304349F83A /* Info.plist */,
+				786CA2BC39ECAE42C2D696702FEBA571 /* Pods-MapboxDirectionsMac.modulemap */,
+				99B89A179B038E2B8B26613976A34CB0 /* Pods-MapboxDirectionsMac-acknowledgements.markdown */,
+				75C3154DBF46114ED5F461A1915F7948 /* Pods-MapboxDirectionsMac-acknowledgements.plist */,
+				5D4E3DAAA1867CB973BB6BA47FFE3DE3 /* Pods-MapboxDirectionsMac-dummy.m */,
+				35BCEF6F7CA1B95B9F01A976900F425C /* Pods-MapboxDirectionsMac-frameworks.sh */,
+				1EC914F7DB2A12CF47EF882B20E2FF06 /* Pods-MapboxDirectionsMac-resources.sh */,
+				CC613821A5901C232F1B4B7325DD686A /* Pods-MapboxDirectionsMac-umbrella.h */,
+				D4CF17A8732C385F8256272D7417222E /* Pods-MapboxDirectionsMac.debug.xcconfig */,
+				C58FE9A979159814126B82CFE5A773B8 /* Pods-MapboxDirectionsMac.release.xcconfig */,
+			);
+			name = "Pods-MapboxDirectionsMac";
+			path = "Target Support Files/Pods-MapboxDirectionsMac";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				49D7271C1A6A86D296818F5A651FA2C2 /* Frameworks */,
+				A8ABAEB604CAFE3DFA4C1985D9E8D421 /* Pods */,
+				5FFA8F13FA49E431F7260960857942CC /* Products */,
+				2AA8C2B1CB677F8AB0EEE4F5316B80EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		832B1564AAFCF62EF640E7B5CB7CD2BB /* Pods-MapboxDirectionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C1FA7F1E1FEFCA0BD08F16930F928E7 /* Info.plist */,
+				1951C32A8969C10048B2B92D04EBECFF /* Pods-MapboxDirectionsTests.modulemap */,
+				CCD525590AAC044FDA75445DA3AF7746 /* Pods-MapboxDirectionsTests-acknowledgements.markdown */,
+				EA287D9A975BFA7070A4E9C7BCF2A0E5 /* Pods-MapboxDirectionsTests-acknowledgements.plist */,
+				CDB548A485A189D1BFB18FDD125DC7FB /* Pods-MapboxDirectionsTests-dummy.m */,
+				55F2C39A251E0094C1D3B81B92B271D9 /* Pods-MapboxDirectionsTests-frameworks.sh */,
+				DE3B3B636D2B23C0344F620D6E764F66 /* Pods-MapboxDirectionsTests-resources.sh */,
+				54D4AC39CBFCF68721B381AA3EDFF955 /* Pods-MapboxDirectionsTests-umbrella.h */,
+				92555D37645C80AD43E0B3C0801A2E38 /* Pods-MapboxDirectionsTests.debug.xcconfig */,
+				558AEA0D2A5F3B69D43E58ED623836F2 /* Pods-MapboxDirectionsTests.release.xcconfig */,
+			);
+			name = "Pods-MapboxDirectionsTests";
+			path = "Target Support Files/Pods-MapboxDirectionsTests";
+			sourceTree = "<group>";
+		};
+		8C433B4AD5A69D6305BD624735332AC8 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				AF7E97ED7198B067E92ABD0424B919FC /* CFNetwork.framework */,
+				1CC0BAB31A67698E23756796B40F06E2 /* Cocoa.framework */,
+				12671945F80E6680EE0E0B98F6B86BA3 /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		9798B9AB393F902D2123E0CA7C8B921C /* Pods-Example (Swift) */ = {
+			isa = PBXGroup;
+			children = (
+				C71F36E5EB202C428E6A314ACBE887C0 /* Info.plist */,
+				3DA00925F5109672F06B40570CA7B645 /* Pods-Example (Swift).modulemap */,
+				4EC52D7CF6CFCF87BAE0684973F71FA5 /* Pods-Example (Swift)-acknowledgements.markdown */,
+				488EA4EAF2A79F33022ED62C31204628 /* Pods-Example (Swift)-acknowledgements.plist */,
+				3B1C7013535F21DE160F4F10C81845ED /* Pods-Example (Swift)-dummy.m */,
+				7D5E25AE5CBCEC3DCDC67B9315BFFAF1 /* Pods-Example (Swift)-frameworks.sh */,
+				F32104F42AD3131B7AA481CF933D312D /* Pods-Example (Swift)-resources.sh */,
+				5A2FC41CE6C4678DB8C4F66B1B099E20 /* Pods-Example (Swift)-umbrella.h */,
+				83BAC2B3EB20B74413EA186F65CBF7E9 /* Pods-Example (Swift).debug.xcconfig */,
+				EB7D8D17E3AFA0EA2CBF44B91800A3A1 /* Pods-Example (Swift).release.xcconfig */,
+			);
+			name = "Pods-Example (Swift)";
+			path = "Target Support Files/Pods-Example (Swift)";
+			sourceTree = "<group>";
+		};
+		996F7313C451064F83D0BBF4C8E6A3B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8EA81B5110C059737E6D227A896D669 /* Info.plist */,
+				F4052F1E6B8A64B95512FCFE242B8DC4 /* Info.plist */,
+				421812D89F7D83447A907E5FB9A44B0B /* Info.plist */,
+				F534AADA0EF1ECBAA9CEA766F18D0254 /* OHHTTPStubs-iOS.modulemap */,
+				A10A4D6281AE47F18BAF17394626B227 /* OHHTTPStubs-iOS.xcconfig */,
+				F7B7C44E343DCB4BE62FBBD837D8B164 /* OHHTTPStubs-iOS-dummy.m */,
+				D56FF847C0897886008A7FFDE4D87DF1 /* OHHTTPStubs-iOS-prefix.pch */,
+				B6933B9F026184B6D5A1B5EA3959E76D /* OHHTTPStubs-iOS-umbrella.h */,
+				0B1FDC9746814BCCC1F6A3F002B2AE72 /* OHHTTPStubs-OSX.modulemap */,
+				D7DE453A9926A87E240E3C53915329C7 /* OHHTTPStubs-OSX.xcconfig */,
+				F4379E58EB9637F3EF0B8B01AEB94119 /* OHHTTPStubs-OSX-dummy.m */,
+				840423D21F179C56EF7991C3BE588961 /* OHHTTPStubs-OSX-prefix.pch */,
+				42012BD9C1BF20117B79CCA69EFFD405 /* OHHTTPStubs-OSX-umbrella.h */,
+				2C852F5C6025B40E53CB2B11B9D61828 /* OHHTTPStubs-tvOS.modulemap */,
+				4A66FE5D3D87AA1C19B16135E97838B3 /* OHHTTPStubs-tvOS.xcconfig */,
+				BC0356DDC4ADD6522AD7E8A20F74CCA8 /* OHHTTPStubs-tvOS-dummy.m */,
+				797900E08A3E176D0377C4739F072920 /* OHHTTPStubs-tvOS-prefix.pch */,
+				FBF4F5699751A75B0AFA0A334951AB07 /* OHHTTPStubs-tvOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OHHTTPStubs-OSX";
+			sourceTree = "<group>";
+		};
+		A8ABAEB604CAFE3DFA4C1985D9E8D421 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02CC7799A6CB430D7333F701DFED499C /* Mapbox-iOS-SDK */,
+				25D0BCFC83AD67616D393FD6B1F299FE /* OHHTTPStubs */,
+				F7225723881547BDA04C926F87F05958 /* Polyline */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE5512581EA5B696FAE31D2A54490B4B /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				08884C9DFF1E1F3910472C1769783C4E /* CFNetwork.framework */,
+				839B6D9F2D377E6111FE9B760740A1BB /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		D51DFDF4150F3B7BD651C7183F763E71 /* Pods-MapboxDirections */ = {
+			isa = PBXGroup;
+			children = (
+				C705D19099E4B9314CF1EAF00687B03C /* Info.plist */,
+				7681F60ACA4A74819EC0FC46D0AD874D /* Pods-MapboxDirections.modulemap */,
+				FFA917CCD7891645E7B7C7C3E1A86E07 /* Pods-MapboxDirections-acknowledgements.markdown */,
+				322A5DCD515A60215F7DC778BE940634 /* Pods-MapboxDirections-acknowledgements.plist */,
+				7113F268C15279291590A935C73A02DA /* Pods-MapboxDirections-dummy.m */,
+				25D5C58D35F00A84B54DFFBE58F9A5D7 /* Pods-MapboxDirections-frameworks.sh */,
+				6F5E18B1A35557A688925CE5C1128F93 /* Pods-MapboxDirections-resources.sh */,
+				875F5C94F3BA37F1F853E967FD8C8F7F /* Pods-MapboxDirections-umbrella.h */,
+				FBF815B8FDB9276EDAE71B4B2539A5A6 /* Pods-MapboxDirections.debug.xcconfig */,
+				5FAC4D5F7C5FAD9E1B6A8EE04E384912 /* Pods-MapboxDirections.release.xcconfig */,
+			);
+			name = "Pods-MapboxDirections";
+			path = "Target Support Files/Pods-MapboxDirections";
+			sourceTree = "<group>";
+		};
+		F7225723881547BDA04C926F87F05958 /* Polyline */ = {
+			isa = PBXGroup;
+			children = (
+				0F25C0ACDA2B2D1706B9459F92FC504B /* Polyline.h */,
+				BEAE69A4DC9432E9B14DB60E54BADB2B /* Polyline.swift */,
+				67A19903C8BD6154F9EB3B074064A2BE /* Support Files */,
+			);
+			path = Polyline;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00F2BB41ECCAF1F061A8DCE93C7F85A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A809EE147653209647DF39FC41181763 /* Polyline-tvOS-umbrella.h in Headers */,
+				155F3D2328AFE2AF06D1C01C61A61881 /* Polyline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22563FB0B97C5D9615B1283D01C8199E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702E698A814A567C42A98255D816A192 /* Pods-MapboxDirectionsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231FA54267E5EAD375295039CDCD82A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850E4A8D8DF11466E5CEE420A0D06BBE /* Pods-Example (Swift)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4750560784FABE82DD1570922ED0A79D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650DE1150362BBD6B5CD9B9111D9D2A1 /* Polyline-OSX-umbrella.h in Headers */,
+				54582113E49565CE34BC1DBD505BBBCF /* Polyline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538CB79E015A2AE27AFED5739FED0DA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3276738BD6CF59131636816573FFA3 /* Compatibility.h in Headers */,
+				B03DF1ACB39F951C28C73C441ECD8A07 /* OHHTTPStubs-OSX-umbrella.h in Headers */,
+				8F44DAD9D6B097E5F1EEE70F5B124B48 /* OHHTTPStubs.h in Headers */,
+				975B0F3D45E1B90F7339C9D38498369D /* OHHTTPStubsResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566ADBE3C3ECEF89A751390820D4B1A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB17B8410441715551C0C693C1E9D9F3 /* Pods-MapboxDirectionsTVTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684D9D75C8DB5BB8C0EE0BB78BCF53D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE0E4ED446D0C32FFC2050CABEDEF09 /* Polyline-watchOS-umbrella.h in Headers */,
+				3301E2DEAB296A3E975E7F9777F552E9 /* Polyline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F6ED280BDFBBD20B8D7DE65853D51F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C585E171EBE4DA334FA6052173E95E34 /* Pods-MapboxDirectionsMacTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A65573A32823C68915F72D958F9A4DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46AEB85D6EBF581A101E417E7F92E87 /* Pods-MapboxDirections-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8173D6A47E88987582A809102F34F956 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBA75860B0A7223A0690AFD94F4DCB5 /* Pods-MapboxDirectionsMac-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08F8768BC72764A594598E8C2213D4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9709B5D670A86C406181877DF80249F8 /* Polyline-iOS-umbrella.h in Headers */,
+				FC5BBF26580A8054ADEFE34EDFBF522A /* Polyline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF11133E85A3054650F64D68DF1C65EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0DA395A063A0C52E04166B8FD81E28 /* Pods-MapboxDirectionsTV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0260B1133F613E5C972E07041674105 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F4CF36E08636821B59A5B1481A3E4B /* Pods-MapboxDirectionsWatch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B8ED067A1DF41EE4078696397C8DAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC29CFAFA86552635204CEB3FC798ACC /* Compatibility.h in Headers */,
+				0AAB14E9BDD87B530F4F1E4B9C9CE0B3 /* OHHTTPStubs-iOS-umbrella.h in Headers */,
+				04EE6D71F7FC4753255DC809097BD1F5 /* OHHTTPStubs.h in Headers */,
+				25AD090F4E957575491D67C075C21E39 /* OHHTTPStubsResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC75C2192FB5AD9B9AA4E5546C4A9A82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19A70565205BE1F71579FF766E60E2F /* Compatibility.h in Headers */,
+				DE4E8A6896706C27CAABFCC9CE9007CF /* OHHTTPStubs-tvOS-umbrella.h in Headers */,
+				3FF588A683A42A154B08BA4491F48C87 /* OHHTTPStubs.h in Headers */,
+				DCDDB9E0D3601576E9C906EB2C02FEF1 /* OHHTTPStubsResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		045D5C7B6B9D303256865F0BD01BB96D /* Pods-MapboxDirectionsMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DCFBB6038F9C796283E7D390A074F2B /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsMac" */;
+			buildPhases = (
+				A347B9A0BF99D862938F2255187B8EE0 /* Sources */,
+				22E65C95561FDB823B69765167B79FA9 /* Frameworks */,
+				8173D6A47E88987582A809102F34F956 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67449AB1C834FB6FC62D32C32D472AF7 /* PBXTargetDependency */,
+			);
+			name = "Pods-MapboxDirectionsMac";
+			productName = "Pods-MapboxDirectionsMac";
+			productReference = ED745B50F8654FE1B335209481A5C979 /* Pods_MapboxDirectionsMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A651AC6EFCC9DDF7EAFB5411A3C8DB8 /* Pods-MapboxDirectionsTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760E12F31E6296EC4C26E6BFAF51706B /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsTVTests" */;
+			buildPhases = (
+				6862E7743604E088B1BEFCDCBBC7F7A8 /* Sources */,
+				61B335F3F088157DE03F67B87D8CD84E /* Frameworks */,
+				566ADBE3C3ECEF89A751390820D4B1A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABCA79C2FD44128402829954DF70C83 /* PBXTargetDependency */,
+				168796C7FFAEC4BFB70A49FABA38F340 /* PBXTargetDependency */,
+			);
+			name = "Pods-MapboxDirectionsTVTests";
+			productName = "Pods-MapboxDirectionsTVTests";
+			productReference = 5A092A9DEC68990B151DA3DC0CA49048 /* Pods_MapboxDirectionsTVTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D103450B66DCCFBFE71E90BC190E52C /* OHHTTPStubs-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC70A068EAEAFBAD7C814E4BDE6BAF64 /* Build configuration list for PBXNativeTarget "OHHTTPStubs-tvOS" */;
+			buildPhases = (
+				DE2164B4CA6F98EE919A25D598B4BA86 /* Sources */,
+				996F5D17393830952E219D0F78B01CB4 /* Frameworks */,
+				EC75C2192FB5AD9B9AA4E5546C4A9A82 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OHHTTPStubs-tvOS";
+			productName = "OHHTTPStubs-tvOS";
+			productReference = 98FAB7AB12B4F1A869139E8D9F537C15 /* OHHTTPStubs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D110E739FB8A946707A2F8DDA857BF1 /* Pods-MapboxDirectionsMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0659956B6A92EB8C11B9646FA51592A /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsMacTests" */;
+			buildPhases = (
+				3E1BBD07200322D7D47FE12BE48574AE /* Sources */,
+				9ECCC19F25702ABFB947747287632BEE /* Frameworks */,
+				69F6ED280BDFBBD20B8D7DE65853D51F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B88BB438C0D037EA1C788135E9FA738 /* PBXTargetDependency */,
+				776F4853404AFDBDD1B84D83B7A38B8D /* PBXTargetDependency */,
+			);
+			name = "Pods-MapboxDirectionsMacTests";
+			productName = "Pods-MapboxDirectionsMacTests";
+			productReference = 8EAC30127B67237B69AD3D24124503D4 /* Pods_MapboxDirectionsMacTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E7E1E4364FB90C34F70555071089E83 /* Polyline-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DFD36F0B5B5C430E6D065F6FD38A38 /* Build configuration list for PBXNativeTarget "Polyline-tvOS" */;
+			buildPhases = (
+				B9BB2EB29F24051119B8F0DBF37D29B5 /* Sources */,
+				28F8BB4AB30ECC2B45E3208A531E2BF9 /* Frameworks */,
+				00F2BB41ECCAF1F061A8DCE93C7F85A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polyline-tvOS";
+			productName = "Polyline-tvOS";
+			productReference = 922FEC3DB81A4A009F92F1AFB6E2FD4D /* Polyline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C2463386E9B2C7FEAEE8FD0B2CC57DE /* Pods-MapboxDirectionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64AD281AA1C7FA87182BBDF3DAC5BCF8 /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsTests" */;
+			buildPhases = (
+				A1FFABD60B91777F7B66BE28F3BD622C /* Sources */,
+				BE37D7C49F8B4AFFD8305D7F858BF5F2 /* Frameworks */,
+				22563FB0B97C5D9615B1283D01C8199E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19766C1A6B98C1FDCB300854BA30AD12 /* PBXTargetDependency */,
+				DD8C5154284D04FA3D3283FEBA86D27C /* PBXTargetDependency */,
+			);
+			name = "Pods-MapboxDirectionsTests";
+			productName = "Pods-MapboxDirectionsTests";
+			productReference = 4CC3A46B5C2AF01ACC29DA57F9FCF437 /* Pods_MapboxDirectionsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B15042AB104C33A9D17B0C3067314C9 /* Polyline-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D857E0F63E85C46F7F14D2E33E7FEE59 /* Build configuration list for PBXNativeTarget "Polyline-iOS" */;
+			buildPhases = (
+				D8CED41DA80823250AFD97B65F03E30F /* Sources */,
+				EA64071064A93FDAC8CA2726783933E0 /* Frameworks */,
+				B08F8768BC72764A594598E8C2213D4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polyline-iOS";
+			productName = "Polyline-iOS";
+			productReference = 00CF3E8CE7EA12D70DF7F49F40A675F0 /* Polyline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B463D6D8D5D035BBE518A9B87BD47F6 /* Pods-Example (Swift) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FCEF7C47B08004A2BF48782157EBDB /* Build configuration list for PBXNativeTarget "Pods-Example (Swift)" */;
+			buildPhases = (
+				B14D67F8BC9836787B10D21BFA52F432 /* Sources */,
+				9A531B1A8F8E080C5CFCDCD1F6883B8B /* Frameworks */,
+				231FA54267E5EAD375295039CDCD82A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				327B4029DA246301C9B45318B1094DC9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example (Swift)";
+			productName = "Pods-Example (Swift)";
+			productReference = C55935B40B3F4874E4C3C8CB6EDAFB0D /* Pods_Example__Swift_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		729508EFEC9D5AAF04C61FD20F9E1D90 /* OHHTTPStubs-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38F362EE5B1A26A12D9C4957E6A4B64 /* Build configuration list for PBXNativeTarget "OHHTTPStubs-iOS" */;
+			buildPhases = (
+				578F88E2ACCB244D5ED925818455371B /* Sources */,
+				604ACAE506AAC15D01E7CD30F12CBC2D /* Frameworks */,
+				E2B8ED067A1DF41EE4078696397C8DAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OHHTTPStubs-iOS";
+			productName = "OHHTTPStubs-iOS";
+			productReference = 65BE60BA707F56928086FEB55D740709 /* OHHTTPStubs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73AF9EE417CD9B3014C0A4B2610FB1B1 /* Pods-MapboxDirections */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0904A0E366CA1F0B6D0DE2B3CBCB7E7 /* Build configuration list for PBXNativeTarget "Pods-MapboxDirections" */;
+			buildPhases = (
+				EECFA33CEE9F7B6F23827F934135216A /* Sources */,
+				933C1B97F1C510FEDF2F945206A4F2A9 /* Frameworks */,
+				6A65573A32823C68915F72D958F9A4DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672A37FBD2254342068E47D8595ABB81 /* PBXTargetDependency */,
+			);
+			name = "Pods-MapboxDirections";
+			productName = "Pods-MapboxDirections";
+			productReference = 502A04E3F3A3650321C5984542E4F788 /* Pods_MapboxDirections.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		938C3CC2E66AD6CB14DF780D8B41E2F7 /* Polyline-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5664EC40A5E8A13B7766AC9A463838 /* Build configuration list for PBXNativeTarget "Polyline-watchOS" */;
+			buildPhases = (
+				0399659701C57F09CD771637EFB9503C /* Sources */,
+				05D017C055465BD8A37FA15490A99268 /* Frameworks */,
+				684D9D75C8DB5BB8C0EE0BB78BCF53D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polyline-watchOS";
+			productName = "Polyline-watchOS";
+			productReference = 615F592FC5E8CD8D7CC0063875520F1B /* Polyline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		999D753A4018B5491109456D9694113E /* Pods-MapboxDirectionsTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507C565FC7B03211CA21F2B93C1A13E7 /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsTV" */;
+			buildPhases = (
+				F93599433EA0A35D14D24F9B5AD907C7 /* Sources */,
+				4682D31A847C7062A1DEC52AD1E5F206 /* Frameworks */,
+				DF11133E85A3054650F64D68DF1C65EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD077CC5BABE71C4AF68E006D88EA55B /* PBXTargetDependency */,
+			);
+			name = "Pods-MapboxDirectionsTV";
+			productName = "Pods-MapboxDirectionsTV";
+			productReference = F7D36A9856E4C0C3FB0CBE4451BD4CB2 /* Pods_MapboxDirectionsTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BC8062CA0052AB4A82EBF7D5D480D32 /* OHHTTPStubs-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4185ADDDC915F1C455191841113F0C97 /* Build configuration list for PBXNativeTarget "OHHTTPStubs-OSX" */;
+			buildPhases = (
+				838FBBB856C0115EF26650EADB64CFD4 /* Sources */,
+				D6227065A760DEF9297D6AD0B77577F3 /* Frameworks */,
+				538CB79E015A2AE27AFED5739FED0DA2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OHHTTPStubs-OSX";
+			productName = "OHHTTPStubs-OSX";
+			productReference = 533343986043B0A8BD2F11D24A32CE6A /* OHHTTPStubs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F6B5F99A06C9CCAE7654C57B96B0593 /* Polyline-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173D818805CD62D4D98B446AB549F755 /* Build configuration list for PBXNativeTarget "Polyline-OSX" */;
+			buildPhases = (
+				8B93870C1176AE702C673512E723D768 /* Sources */,
+				C52D7EAC2A7354BC4E9F4D4DF3EAC742 /* Frameworks */,
+				4750560784FABE82DD1570922ED0A79D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polyline-OSX";
+			productName = "Polyline-OSX";
+			productReference = F36670E47D3FF39F74162775FF35E264 /* Polyline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEE8BF2036423DF47434E6AD701EE2ED /* Pods-MapboxDirectionsWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 999A58E244DA2E4FE56E2F8CA2AEC1EA /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsWatch" */;
+			buildPhases = (
+				526DA37BFE143587BF433EC75DB516A9 /* Sources */,
+				1EF984BA3EA97FFE595D21CC30707DA1 /* Frameworks */,
+				E0260B1133F613E5C972E07041674105 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D2EC910F31BBC0177200EC7FBFD405 /* PBXTargetDependency */,
+			);
+			name = "Pods-MapboxDirectionsWatch";
+			productName = "Pods-MapboxDirectionsWatch";
+			productReference = FCC67A6CC61D21447D87B44FA563985F /* Pods_MapboxDirectionsWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5FFA8F13FA49E431F7260960857942CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				729508EFEC9D5AAF04C61FD20F9E1D90 /* OHHTTPStubs-iOS */,
+				9BC8062CA0052AB4A82EBF7D5D480D32 /* OHHTTPStubs-OSX */,
+				1D103450B66DCCFBFE71E90BC190E52C /* OHHTTPStubs-tvOS */,
+				6B463D6D8D5D035BBE518A9B87BD47F6 /* Pods-Example (Swift) */,
+				73AF9EE417CD9B3014C0A4B2610FB1B1 /* Pods-MapboxDirections */,
+				045D5C7B6B9D303256865F0BD01BB96D /* Pods-MapboxDirectionsMac */,
+				2D110E739FB8A946707A2F8DDA857BF1 /* Pods-MapboxDirectionsMacTests */,
+				5C2463386E9B2C7FEAEE8FD0B2CC57DE /* Pods-MapboxDirectionsTests */,
+				999D753A4018B5491109456D9694113E /* Pods-MapboxDirectionsTV */,
+				1A651AC6EFCC9DDF7EAFB5411A3C8DB8 /* Pods-MapboxDirectionsTVTests */,
+				AEE8BF2036423DF47434E6AD701EE2ED /* Pods-MapboxDirectionsWatch */,
+				6B15042AB104C33A9D17B0C3067314C9 /* Polyline-iOS */,
+				9F6B5F99A06C9CCAE7654C57B96B0593 /* Polyline-OSX */,
+				4E7E1E4364FB90C34F70555071089E83 /* Polyline-tvOS */,
+				938C3CC2E66AD6CB14DF780D8B41E2F7 /* Polyline-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0399659701C57F09CD771637EFB9503C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E546931217EA31BFA41F8642362888D2 /* Polyline-watchOS-dummy.m in Sources */,
+				B75DC65FEBC03423AC531AEE549D3C86 /* Polyline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1BBD07200322D7D47FE12BE48574AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBC9FC4F4110E80212D201A4D956D4E /* Pods-MapboxDirectionsMacTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526DA37BFE143587BF433EC75DB516A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66D01B8D9E8EC593A3BF490D9E12C20 /* Pods-MapboxDirectionsWatch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578F88E2ACCB244D5ED925818455371B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C224F60B1A0DFC82012CDAB41B531D62 /* OHHTTPStubs-iOS-dummy.m in Sources */,
+				8EA309B6DC751D792B0C29D16FD5A4B9 /* OHHTTPStubs.m in Sources */,
+				1DBE9CC2BCF5E5B437D3868194F8ADEB /* OHHTTPStubsResponse.m in Sources */,
+				A499E13397D9639A9C6B0E9B6A0DB9A4 /* OHHTTPStubsSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6862E7743604E088B1BEFCDCBBC7F7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07931B159573BDDCC8576B8F9B370621 /* Pods-MapboxDirectionsTVTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838FBBB856C0115EF26650EADB64CFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC441718A4F968BB0927FF0EDD98F11 /* OHHTTPStubs-OSX-dummy.m in Sources */,
+				5836CC71F0A69C1A2835C77FD97CF3E2 /* OHHTTPStubs.m in Sources */,
+				D0AE7E7CC6DCAA1FFA846B370EC15A2C /* OHHTTPStubsResponse.m in Sources */,
+				0736FBF36760254BD0A4C258DD9E7E92 /* OHHTTPStubsSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B93870C1176AE702C673512E723D768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CABBEEEEBDD9E1CF645566D5B371F3 /* Polyline-OSX-dummy.m in Sources */,
+				507262EF71D195349A1BAEC522248DF1 /* Polyline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FFABD60B91777F7B66BE28F3BD622C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A690F45129FE0FCF97995AF0B64D2B /* Pods-MapboxDirectionsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A347B9A0BF99D862938F2255187B8EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8835F4061798F36205AB794D6556DA9C /* Pods-MapboxDirectionsMac-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14D67F8BC9836787B10D21BFA52F432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD5A42AAEE170598B6F590B43431DDC /* Pods-Example (Swift)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BB2EB29F24051119B8F0DBF37D29B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D33D344E2C35E0B87D3E4A42FA44FE2 /* Polyline-tvOS-dummy.m in Sources */,
+				7A618792C5DA6FCA4BF4EB02C7597B42 /* Polyline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CED41DA80823250AFD97B65F03E30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F3E0359AD01CB906935340215D36CD /* Polyline-iOS-dummy.m in Sources */,
+				D655BFF67B00B20D81176B04B6768DD4 /* Polyline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2164B4CA6F98EE919A25D598B4BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325FD59E75F350C6F6C3F211C3D271E7 /* OHHTTPStubs-tvOS-dummy.m in Sources */,
+				BE548A8894F601FA24B457E2135C4C63 /* OHHTTPStubs.m in Sources */,
+				01CB9F368E8C95AD8D4B9103512660E1 /* OHHTTPStubsResponse.m in Sources */,
+				F2A2FBC43872876664F95361D5E3C169 /* OHHTTPStubsSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECFA33CEE9F7B6F23827F934135216A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3FC5839020FF9856F09E9175BD9D3A /* Pods-MapboxDirections-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93599433EA0A35D14D24F9B5AD907C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA9C6591315730B0B0765ED3D081FCD /* Pods-MapboxDirectionsTV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D2EC910F31BBC0177200EC7FBFD405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Polyline-watchOS";
+			target = 938C3CC2E66AD6CB14DF780D8B41E2F7 /* Polyline-watchOS */;
+			targetProxy = 7238F8E9F13AA7D688924141BA4F37C7 /* PBXContainerItemProxy */;
+		};
+		168796C7FFAEC4BFB70A49FABA38F340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Polyline-tvOS";
+			target = 4E7E1E4364FB90C34F70555071089E83 /* Polyline-tvOS */;
+			targetProxy = 3B7265E560B8613E6AFC3DF3D0917A7B /* PBXContainerItemProxy */;
+		};
+		19766C1A6B98C1FDCB300854BA30AD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OHHTTPStubs-iOS";
+			target = 729508EFEC9D5AAF04C61FD20F9E1D90 /* OHHTTPStubs-iOS */;
+			targetProxy = E2D1095C78504AB9641007CA386CAE69 /* PBXContainerItemProxy */;
+		};
+		327B4029DA246301C9B45318B1094DC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Polyline-iOS";
+			target = 6B15042AB104C33A9D17B0C3067314C9 /* Polyline-iOS */;
+			targetProxy = C355801A61AD2B2C847470806E025502 /* PBXContainerItemProxy */;
+		};
+		4B88BB438C0D037EA1C788135E9FA738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OHHTTPStubs-OSX";
+			target = 9BC8062CA0052AB4A82EBF7D5D480D32 /* OHHTTPStubs-OSX */;
+			targetProxy = 241CB448B0F113AB1BCA8DC842A9A0E0 /* PBXContainerItemProxy */;
+		};
+		672A37FBD2254342068E47D8595ABB81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Polyline-iOS";
+			target = 6B15042AB104C33A9D17B0C3067314C9 /* Polyline-iOS */;
+			targetProxy = 533102856465E71BF0C8FC919459CB74 /* PBXContainerItemProxy */;
+		};
+		67449AB1C834FB6FC62D32C32D472AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Polyline-OSX";
+			target = 9F6B5F99A06C9CCAE7654C57B96B0593 /* Polyline-OSX */;
+			targetProxy = FF7527350D91D89D4BD5AC9E0F64453E /* PBXContainerItemProxy */;
+		};
+		776F4853404AFDBDD1B84D83B7A38B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Polyline-OSX";
+			target = 9F6B5F99A06C9CCAE7654C57B96B0593 /* Polyline-OSX */;
+			targetProxy = 3E50DB5D23DAF0E3309472F89D08D0CB /* PBXContainerItemProxy */;
+		};
+		AD077CC5BABE71C4AF68E006D88EA55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Polyline-tvOS";
+			target = 4E7E1E4364FB90C34F70555071089E83 /* Polyline-tvOS */;
+			targetProxy = 7F5A9BC9B5000A6C8EA7969D499B584B /* PBXContainerItemProxy */;
+		};
+		DD8C5154284D04FA3D3283FEBA86D27C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Polyline-iOS";
+			target = 6B15042AB104C33A9D17B0C3067314C9 /* Polyline-iOS */;
+			targetProxy = 18B2E57CB5E141D515A68E2B1A0B8EDC /* PBXContainerItemProxy */;
+		};
+		FABCA79C2FD44128402829954DF70C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OHHTTPStubs-tvOS";
+			target = 1D103450B66DCCFBFE71E90BC190E52C /* OHHTTPStubs-tvOS */;
+			targetProxy = 48198A6D1D3DF33A1D7CE3DFE4604256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		066FEA254F96C02039DE011D1A97235B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7D8D17E3AFA0EA2CBF44B91800A3A1 /* Pods-Example (Swift).release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Example (Swift)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example (Swift)/Pods-Example (Swift).modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Example__Swift_;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		08AF8633CAC79E82FDED11001D5F40DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92555D37645C80AD43E0B3C0801A2E38 /* Pods-MapboxDirectionsTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsTests/Pods-MapboxDirectionsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17220D78B77D23F4EA499D39607CA484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83BAC2B3EB20B74413EA186F65CBF7E9 /* Pods-Example (Swift).debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Example (Swift)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example (Swift)/Pods-Example (Swift).modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Example__Swift_;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		210CA4D913818411012589DE97641448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A66FE5D3D87AA1C19B16135E97838B3 /* OHHTTPStubs-tvOS.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		215858B5D77AF397D1126F19A00FC4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E14177596DC4A31F2F66671038EB7B6 /* Polyline-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline-watchOS/Polyline-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyline-watchOS/Polyline-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		229C4218315F4E8A2D81D37B2640DFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DE453A9926A87E240E3C53915329C7 /* OHHTTPStubs-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-OSX/OHHTTPStubs-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-OSX/OHHTTPStubs-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25206994E6F84412176ABCF09EC60DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58FE9A979159814126B82CFE5A773B8 /* Pods-MapboxDirectionsMac.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsMac/Pods-MapboxDirectionsMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsMac;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A2F42CA0979CB5F7C10F05469813277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C4AA3D0D61032A6A0DA3F97FE3D4EE /* Polyline-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline-OSX/Polyline-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Polyline-OSX/Polyline-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FE0B39E0A58DF8821CF9C42EA1E4482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E14177596DC4A31F2F66671038EB7B6 /* Polyline-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline-watchOS/Polyline-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyline-watchOS/Polyline-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3E43C71932FF87E0F0D3C0732BB2B507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08B03AE64008EBBA686D14FB0DB2BF0 /* Pods-MapboxDirectionsMacTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsMacTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsMacTests/Pods-MapboxDirectionsMacTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsMacTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		404EC715CD8CE86CBE08001E6B40750E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A66FE5D3D87AA1C19B16135E97838B3 /* OHHTTPStubs-tvOS.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4650BE328F71DAE2B1A77A3D954AB6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10A4D6281AE47F18BAF17394626B227 /* OHHTTPStubs-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4743A55181778B911CF791AD3C65BD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		77839FCA66D726D1C08A9BF0D9C06E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EAA9D1FA7F2C808697C6229F4C258D /* Pods-MapboxDirectionsTV.release.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsTV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsTV/Pods-MapboxDirectionsTV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsTV;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		865BE749298CB704B2D04AC3FE8535AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC20BDFE06AF4AD5F4F5281344174108 /* Pods-MapboxDirectionsMacTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsMacTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsMacTests/Pods-MapboxDirectionsMacTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsMacTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86B688F7D38810D38C0935BA7B4BF724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6053013D1FCFF7810DC2035B99380C70 /* Pods-MapboxDirectionsTV.debug.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsTV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsTV/Pods-MapboxDirectionsTV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsTV;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94829C874E46228339ECA1F995CAAEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C4AA3D0D61032A6A0DA3F97FE3D4EE /* Polyline-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline-OSX/Polyline-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Polyline-OSX/Polyline-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CBCD2A270A98259D36649CD46995466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC0B2CB76108E34223BA6F95BC19C2B /* Polyline-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline-iOS/Polyline-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyline-iOS/Polyline-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2CE50DCF9D35CA49B6C53610E2B4D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC0B2CB76108E34223BA6F95BC19C2B /* Polyline-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline-iOS/Polyline-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyline-iOS/Polyline-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A55BA47EDAF1CC96C800064F6131D702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DE453A9926A87E240E3C53915329C7 /* OHHTTPStubs-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-OSX/OHHTTPStubs-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-OSX/OHHTTPStubs-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B05A318EA2C36AA9EB237A0019786C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10A4D6281AE47F18BAF17394626B227 /* OHHTTPStubs-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD092FF6E8FAD7229C1E596E399065A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB149676C800D6CB4D781BAF2DCF256 /* Pods-MapboxDirectionsWatch.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsWatch/Pods-MapboxDirectionsWatch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		BF109FB4CD4173737254B221B114D3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC2EE4AAB64A21BD6E8ECB2E17A88B9 /* Polyline-tvOS.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline-tvOS/Polyline-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyline-tvOS/Polyline-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C020E949FBA8E62E430DCFAFC3335C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE2E000A364B52EEB6C8D7395783FB1 /* Pods-MapboxDirectionsTVTests.release.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsTVTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsTVTests/Pods-MapboxDirectionsTVTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsTVTests;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD41A0915E75792C5A63C088394A2E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CF17A8732C385F8256272D7417222E /* Pods-MapboxDirectionsMac.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsMac/Pods-MapboxDirectionsMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsMac;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D298EF1A03325FF9C603C958B18AE5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF815B8FDB9276EDAE71B4B2539A5A6 /* Pods-MapboxDirections.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirections/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirections/Pods-MapboxDirections.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7E80253B8F306A789CBF6183F868E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D421350D927C599066177CE4C95195EB /* Pods-MapboxDirectionsWatch.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsWatch/Pods-MapboxDirectionsWatch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DE09B23CD08996C900915071C2F600C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558AEA0D2A5F3B69D43E58ED623836F2 /* Pods-MapboxDirectionsTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsTests/Pods-MapboxDirectionsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE4A1D4E6C7F5B0C35A7DB6ABB14B3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F3834AF945474667370FD00FBB28CE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC2EE4AAB64A21BD6E8ECB2E17A88B9 /* Polyline-tvOS.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline-tvOS/Polyline-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyline-tvOS/Polyline-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F490DEAAD8017DE5C8A7D0A4C8FF77C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D6090C471FC77E3677A752D38E588D /* Pods-MapboxDirectionsTVTests.debug.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirectionsTVTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirectionsTVTests/Pods-MapboxDirectionsTVTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirectionsTVTests;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE9E39068D32A9694FCC21EAFD247AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FAC4D5F7C5FAD9E1B6A8EE04E384912 /* Pods-MapboxDirections.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapboxDirections/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapboxDirections/Pods-MapboxDirections.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapboxDirections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01DFD36F0B5B5C430E6D065F6FD38A38 /* Build configuration list for PBXNativeTarget "Polyline-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3834AF945474667370FD00FBB28CE60 /* Debug */,
+				BF109FB4CD4173737254B221B114D3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173D818805CD62D4D98B446AB549F755 /* Build configuration list for PBXNativeTarget "Polyline-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94829C874E46228339ECA1F995CAAEF2 /* Debug */,
+				2A2F42CA0979CB5F7C10F05469813277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DCFBB6038F9C796283E7D390A074F2B /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD41A0915E75792C5A63C088394A2E0A /* Debug */,
+				25206994E6F84412176ABCF09EC60DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4A1D4E6C7F5B0C35A7DB6ABB14B3EA /* Debug */,
+				4743A55181778B911CF791AD3C65BD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4185ADDDC915F1C455191841113F0C97 /* Build configuration list for PBXNativeTarget "OHHTTPStubs-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55BA47EDAF1CC96C800064F6131D702 /* Debug */,
+				229C4218315F4E8A2D81D37B2640DFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507C565FC7B03211CA21F2B93C1A13E7 /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B688F7D38810D38C0935BA7B4BF724 /* Debug */,
+				77839FCA66D726D1C08A9BF0D9C06E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64AD281AA1C7FA87182BBDF3DAC5BCF8 /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AF8633CAC79E82FDED11001D5F40DC /* Debug */,
+				DE09B23CD08996C900915071C2F600C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760E12F31E6296EC4C26E6BFAF51706B /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F490DEAAD8017DE5C8A7D0A4C8FF77C8 /* Debug */,
+				C020E949FBA8E62E430DCFAFC3335C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		999A58E244DA2E4FE56E2F8CA2AEC1EA /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E80253B8F306A789CBF6183F868E50 /* Debug */,
+				BD092FF6E8FAD7229C1E596E399065A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0659956B6A92EB8C11B9646FA51592A /* Build configuration list for PBXNativeTarget "Pods-MapboxDirectionsMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E43C71932FF87E0F0D3C0732BB2B507 /* Debug */,
+				865BE749298CB704B2D04AC3FE8535AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5664EC40A5E8A13B7766AC9A463838 /* Build configuration list for PBXNativeTarget "Polyline-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215858B5D77AF397D1126F19A00FC4EC /* Debug */,
+				2FE0B39E0A58DF8821CF9C42EA1E4482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FCEF7C47B08004A2BF48782157EBDB /* Build configuration list for PBXNativeTarget "Pods-Example (Swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17220D78B77D23F4EA499D39607CA484 /* Debug */,
+				066FEA254F96C02039DE011D1A97235B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D857E0F63E85C46F7F14D2E33E7FEE59 /* Build configuration list for PBXNativeTarget "Polyline-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBCD2A270A98259D36649CD46995466 /* Debug */,
+				A2CE50DCF9D35CA49B6C53610E2B4D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0904A0E366CA1F0B6D0DE2B3CBCB7E7 /* Build configuration list for PBXNativeTarget "Pods-MapboxDirections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D298EF1A03325FF9C603C958B18AE5D4 /* Debug */,
+				FE9E39068D32A9694FCC21EAFD247AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38F362EE5B1A26A12D9C4957E6A4B64 /* Build configuration list for PBXNativeTarget "OHHTTPStubs-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05A318EA2C36AA9EB237A0019786C97 /* Debug */,
+				4650BE328F71DAE2B1A77A3D954AB6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC70A068EAEAFBAD7C814E4BDE6BAF64 /* Build configuration list for PBXNativeTarget "OHHTTPStubs-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210CA4D913818411012589DE97641448 /* Debug */,
+				404EC715CD8CE86CBE08001E6B40750E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

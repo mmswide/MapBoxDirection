@@ -1,0 +1,6 @@
+framework module Polyline {
+  umbrella header "Polyline-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
